@@ -50,12 +50,13 @@ The server will run at: http://localhost:5000
 | DELETE | `/api/notes/:id`    | Delete a note                     |
 
 📌 Example API Requests
+
 1️⃣ Create a Note (POST)
 
 Request:
-   POST
+   
    ```
-   /api/notes
+   POST /api/notes
    ```
 ```
 {
