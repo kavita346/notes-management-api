@@ -65,7 +65,6 @@ Request:
 }
 ```
 
-Response:
 ###  Response:
 A successful note creation returns a message along with the created note's details.
 
@@ -84,20 +83,19 @@ Request:
 ```
   GET /api/notes
 ```
-Response:
+###  Response:
 
-1️⃣ Learn Node.js
-Note ID: 605c72a8e2e8b620c8e0d9d3
-Content: Practice building APIs using Express.js and MongoDB
-Created At: 2025-03-25T12:00:00.000Z
-Updated At: 2025-03-25T12:00:00.000Z
+- **ID:** `605c72a8e2e8b620c8e0d9d3`
+- **Title:** Learn Node.js
+- **Content:** Practice building APIs using Express.js and MongoDB
+- **Created At:** 2025-03-25T12:00:00.000Z
+- **Updated At:** 2025-03-25T12:00:00.000Z
 
-2️⃣ Express.js Basics
-Note ID: 67e3ecd00883bfd0a0f590c1
-Content: Learn routing, middleware, and request handling
-Created At: 2025-03-26T12:02:24.012Z
-Updated At: 2025-03-26T12:02:24.012Z  
- 
+- **ID:** `65ecd00883bfd0a0f590c1`
+- **Title:** Express Node.js
+- **Content:**  Learn routing, middleware, and request handling
+- **Created At:** 2025-03-26T12:02:24.012Z
+- **Updated At:** 2025-03-26T12:02:24.012Z  
 
 🎯 Done! Now your API is ready to use. 🚀
 
