@@ -23,15 +23,17 @@ notes-management-api/
 │── package.json
 │── README.md
 
+![image](https://github.com/user-attachments/assets/87320f37-e8f8-4ddd-9b0c-4fa24826d2b3)
 
 ## 🚀 Setup Instructions
 
 ### 1️⃣ Clone the Repository
-
+```
 git clone https://github.com/kavita346/notes-management-api.git
-
+```
+```
 cd notes-management-api
-
+```
 ### 2️⃣ Install Dependencies
 
 npm install
