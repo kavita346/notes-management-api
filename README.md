@@ -84,7 +84,7 @@ Request:
   GET /api/notes
 ```
 ###  Response:
-A succesful get all Notes
+A successful get all notes.
 - **ID:** `605c72a8e2e8b620c8e0d9d3`
 - **Title:** Learn Node.js
 - **Content:** Practice building APIs using Express.js and MongoDB
