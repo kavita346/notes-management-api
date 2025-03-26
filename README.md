@@ -34,7 +34,7 @@ PORT=5000
 
 ### 4️⃣ Start the Server
 ```
-npm run dev
+npm run 
 ```
 The server will run at: http://localhost:5000
 
@@ -58,7 +58,6 @@ Request:
    /api/notes
    ```
 ```
-Content-Type: application/json
 {
   "title": "Learn Node.js",
   "content": "Practice building APIs using Express.js and MongoDB"
@@ -66,7 +65,7 @@ Content-Type: application/json
 ```
 
 Response:
-
+```
 {
   "message": "Note created successfully",
   "note": {
@@ -77,14 +76,17 @@ Response:
     "updatedAt": "2025-03-25T12:00:00.000Z"
   }
 }
+```
 
 2️⃣ Get All Notes (GET)
+
 Request:
+
 ```
   GET /api/notes
 ```
 Response:
-
+```
 [  
  {
     "_id": "605c72a8e2e8b620c8e0d9d3",
@@ -103,7 +105,7 @@ Response:
         "__v": 0
     }
 ]
-
+```
 🎯 Done! Now your API is ready to use. 🚀
 
 
