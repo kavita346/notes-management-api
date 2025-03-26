@@ -84,13 +84,13 @@ Request:
   GET /api/notes
 ```
 ###  Response:
-
+A succesful get all Notes
 - **ID:** `605c72a8e2e8b620c8e0d9d3`
 - **Title:** Learn Node.js
 - **Content:** Practice building APIs using Express.js and MongoDB
 - **Created At:** 2025-03-25T12:00:00.000Z
 - **Updated At:** 2025-03-25T12:00:00.000Z
-
+---------------------------------------------------------------------------
 - **ID:** `65ecd00883bfd0a0f590c1`
 - **Title:** Express Node.js
 - **Content:**  Learn routing, middleware, and request handling
