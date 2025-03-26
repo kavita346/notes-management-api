@@ -29,6 +29,7 @@ notes-management-api/
 ### 1️⃣ Clone the Repository
 
 git clone https://github.com/kavita346/notes-management-api.git
+
 cd notes-management-api
 
 ### 2️⃣ Install Dependencies
