@@ -8,21 +8,6 @@ This is a simple Notes Management API built using Node.js, Express.js, and Mongo
 - MongoDB Atlas for database management
 
 ## 🚀 Project struture
-notes-management-api/
-│── models/
-│   └── Note.js
-│── routes/
-│   └── notes.js
-│── controllers/
-│   └── notesController.js
-│── config/
-│   └── db.js
-│── .env
-|──.gitignore
-│── server.js
-│── package.json
-│── README.md
-
 ![image](https://github.com/user-attachments/assets/195c44f9-4c80-4cf7-9bcf-f8e84e8d9952)
 
 
@@ -36,18 +21,21 @@ git clone https://github.com/kavita346/notes-management-api.git
 cd notes-management-api
 ```
 ### 2️⃣ Install Dependencies
-
+```
 npm install
-
+```
 ### 3️⃣ Setup Environment Variables
 Create a .env file in the root directory and add:
-
+```
 MONGO_URI=your_mongodb_connection_string
+
 PORT=5000
+```
 
 ### 4️⃣ Start the Server
-
+```
 npm run dev
+```
 The server will run at: http://localhost:5000
 
 ## 🔥 API Endpoints
@@ -65,7 +53,10 @@ The server will run at: http://localhost:5000
 1️⃣ Create a Note (POST)
 
 Request:
-   POST /api/notes
+   POST
+   ```
+   /api/notes
+   ```
 Content-Type: application/json
 {
   "title": "Learn Node.js",
