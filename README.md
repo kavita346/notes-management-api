@@ -40,8 +40,8 @@ The server will run at: http://localhost:5000
 
 ## 🔥 API Endpoints
 
-| Method | Endpoint            | Description                        |
-|--------|---------------------|------------------------------------|
+| Method | Endpoint            | Description                       |
+|--------|---------------------|-----------------------------------|
 | POST   | `/api/notes`        | Create a new note                 |
 | GET    | `/api/notes`        | Get all notes                     |
 | GET    | `/api/notes/:id`    | Get a specific note               |
@@ -57,14 +57,16 @@ Request:
    ```
    /api/notes
    ```
+```
 Content-Type: application/json
 {
   "title": "Learn Node.js",
   "content": "Practice building APIs using Express.js and MongoDB"
 }
-
+```
 
 Response:
+
 {
   "message": "Note created successfully",
   "note": {
@@ -78,9 +80,11 @@ Response:
 
 2️⃣ Get All Notes (GET)
 Request:
+```
   GET /api/notes
-
+```
 Response:
+
 [  
  {
     "_id": "605c72a8e2e8b620c8e0d9d3",
