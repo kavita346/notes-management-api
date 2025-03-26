@@ -66,18 +66,16 @@ Request:
 ```
 
 Response:
-```
-{
-  "message": "Note created successfully",
-  "note": {
-    "_id": "605c72a8e2e8b620c8e0d9d3",
-    "title": "Learn Node.js",
-    "content": "Practice building APIs using Express.js and MongoDB",
-    "createdAt": "2025-03-25T12:00:00.000Z",
-    "updatedAt": "2025-03-25T12:00:00.000Z"
-  }
-}
-```
+###  Response:
+A successful note creation returns a message along with the created note's details.
+
+- **Message:** "Note created successfully"
+- **Note ID:** `605c72a8e2e8b620c8e0d9d3`
+- **Title:** Learn Node.js
+- **Content:** Practice building APIs using Express.js and MongoDB
+- **Created At:** 2025-03-25T12:00:00.000Z
+- **Updated At:** 2025-03-25T12:00:00.000Z
+
 
 2️⃣ Get All Notes (GET)
 
