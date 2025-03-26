@@ -23,7 +23,8 @@ notes-management-api/
 │── package.json
 │── README.md
 
-![image](https://github.com/user-attachments/assets/87320f37-e8f8-4ddd-9b0c-4fa24826d2b3)
+![image](https://github.com/user-attachments/assets/195c44f9-4c80-4cf7-9bcf-f8e84e8d9952)
+
 
 ## 🚀 Setup Instructions
 
